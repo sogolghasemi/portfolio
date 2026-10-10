@@ -1,0 +1,344 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-family: pxiByp8kv8JHgFVrLGT9Z1xlFQ;
+}
+
+@font-face {
+    font-family: pxiByp8kv8JHgFVrLGT9Z1xlFQ;
+    src: url(font/pxiByp8kv8JHgFVrLGT9Z1xlFQ.woff2);
+}
+
+body {
+    font-family: pxiByp8kv8JHgFVrLGT9Z1xlFQ;
+}
+
+
+
+
+.first-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333333;
+    padding: .5% 1%;
+    margin: 0px;
+}
+
+
+
+
+.first-title {
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+    margin-left: 10%;
+    display: inline-block;
+
+}
+
+.first-title:hover {
+    color: #EAAC49;
+    margin-left: 10%;
+    display: inline-block;
+
+}
+
+.first-header-part-one {
+    margin-right: 8%;
+    display: inline-block;
+
+}
+
+
+.first-title-tow {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    display: inline-block;
+    padding: 10px 20px;
+
+}
+
+
+.first-title-tow-a {
+    font-size: 18px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    display: inline-block;
+    padding: 10px 20p;
+
+}
+
+
+.first-title-tow-a:hover {
+    text-decoration: none;
+    color: #EAAC49;
+    display: inline-block;
+    padding: 10px 20p;
+
+}
+
+
+
+.second-header {
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    padding: 15px 0px;
+}
+
+
+
+
+.second-header-box {
+    width: 80%;
+    margin: 0px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+
+.second-head-one {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+}
+
+.second-svg {
+    fill: #EAAC49;
+
+}
+
+
+
+
+.second-span {
+    color: #000000;
+    font-size: 18px;
+
+
+}
+
+.second-span:hover {
+    color: #EAAC49;
+
+}
+
+#header-border {
+    background-color: white;
+    border: 1px solid rgb(201, 201, 201);
+}
+
+
+
+/* third-header */
+
+
+.third-header-part-one {
+
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.box-third-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+
+}
+
+.header-box-a {
+    text-decoration: none;
+    color: inherit;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    gap: 5px;
+}
+
+.header-box-svg {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+
+}
+
+.header-box-svg:hover {
+    fill: #EAAC49;
+}
+
+.header-box-a:hover {
+    color: #EAAC49;
+}
+
+.search {
+    color: gray;
+    font-size: 16px;
+}
+
+.search-svg {
+    vertical-align: middle;
+    margin-top: 5px;
+}
+
+
+.third-header-part-tow {
+    border: 1px solid gray;
+    display: flex;
+    justify-content: space-between;
+    width: 30%;
+    gap: 20px;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+/* finish-header */
+
+
+
+.first-part {
+    width: 80%;
+    margin: 50px auto;
+    /* background-color: #EAAC49; */
+}
+
+.title {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+
+
+.text {
+    font-size: 18px;
+    color: #333333;
+    padding: 20px 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* footer */
+
+
+.line-footer {
+    background-color: gray;
+    width: 100%;
+    height: 1px;
+}
+
+.footer {
+
+    /* background-color: rgb(80, 80, 80); */
+    width: 80%;
+    display: flex;
+    gap: 60px;
+    /* justify-content: center; */
+    align-items: flex-start;
+    margin: 100px auto;
+
+}
+
+.footer-box-one {
+    width: 19%;
+}
+
+
+.footer-logo {
+    width: 60%;
+}
+
+
+.gray-non-hover {
+    margin-top: 10px;
+    display: block;
+    font-size: 18px;
+    color: #333333;
+}
+
+
+
+.gray {
+    margin-top: 10px;
+    display: block;
+    font-size: 18px;
+    color: #333333;
+
+}
+
+.gray:hover {
+    color: #EAAC49;
+}
+
+.footer-a {
+    text-decoration: none;
+}
+
+
+
+.footer-title {
+    font-size: 20px;
+
+}
+
+
+.location {
+    margin-top: 10px;
+    display: flex;
+    gap: 10px;
+
+    align-items: flex-start;
+}
+
+.location-svg {
+    fill: #EAAC49;
+    margin-top: 15px;
+
+}
+
+
+/* finish footer */
